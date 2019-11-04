@@ -27,16 +27,37 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*!******************************************!*\
   !*** ./src/app/Models/bro.code.model.ts ***!
   \******************************************/
-/*! exports provided: BroCode */
+/*! exports provided: BroCode, FormToSend, FormToSendIN, MainFormIN */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BroCode", function() { return BroCode; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormToSend", function() { return FormToSend; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormToSendIN", function() { return FormToSendIN; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainFormIN", function() { return MainFormIN; });
 var BroCode = /** @class */ (function () {
     function BroCode() {
     }
     return BroCode;
+}());
+
+var FormToSend = /** @class */ (function () {
+    function FormToSend() {
+    }
+    return FormToSend;
+}());
+
+var FormToSendIN = /** @class */ (function () {
+    function FormToSendIN() {
+    }
+    return FormToSendIN;
+}());
+
+var MainFormIN = /** @class */ (function () {
+    function MainFormIN() {
+    }
+    return MainFormIN;
 }());
 
 
@@ -61,7 +82,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!doctype html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n  <meta name=\"description\" content=\"\">\n  <meta name=\"author\" content=\"\">\n  <link rel=\"icon\" href=\"/docs/4.0/assets/img/favicons/favicon.ico\">\n\n  <title>Checkout example for Bootstrap</title>\n\n  <link rel=\"canonical\" href=\"https://getbootstrap.com/docs/4.0/examples/checkout/\">\n  <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"\n    integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n\n  <!-- Bootstrap core CSS -->\n  <!-- <link href=\"../../dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- Custom styles for this template -->\n  <!-- <link href=\"form-validation.css\" rel=\"stylesheet\"> --> -->\n\n</head>\n\n\n<body class=\"bg-light\">\n  <div class=\"container\">\n      <div class=\"row\">\n          <div class=\"col-12 col-md-12\">\n    <br>\n    <div class=\"py-2 text-center\">\n      <img class=\"d-block mx-auto mb-4\" src=\"../assets/images/brocode.gif\" alt=\"\" width=\"360\" height=\"180\">\n      <p><b><a href=\"https://BroCode.com\">BroCode</a></b> is a free JSON API .\n      </p>\n\n      <div id=\"detailed-description\" style=\"\">\n        <p>A way of life between bros. No matter what is going on, the bro code must be followed.</p>\n        <p>It doesn't matter what is in there, the bro code MUST be followed.</p>\n      </div>\n    </div>\n    <h3 style=\"color: red;\">𝓤𝓼𝓪𝓰𝓮</h3>\n    <p>Retrieve a random chuck joke in JSON format.</p>\n    <table class=\"table  table-responsive table-dark\">\n\n      <tr>\n        <td> Get : https://localhost:44394/swagger </td>\n\n      </tr>\n      <tr>\n        <td>\n            <pre class=\"microlight\"><span style=\"color: white;\">{{ '{' }}</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">\"status\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white; font-weight: bold;\">200</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">\"message\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">\"Success\"</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">\"errors\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">null</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">\"data\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">{{ '{' }}</span><span style=\"color: white; font-weight: bold;\">\n                </span><span style=\"color: white;\">\"id\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white; font-weight: bold;\">91</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n                </span><span style=\"color: white;\">\"theCode\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">\"A Bro does not dare or challenge another bro to do anything they wouldn't try themselves.\"</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n                </span><span style=\"color: white;\">\"urd\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">\"2019-10-27T12:19:22.91\"</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n                </span><span style=\"color: white;\">\"isVisible\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">true</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">{{ '}' }}</span><span style=\"color: white; font-weight: bold;\">\n            </span><span style=\"color: white;\">{{ '}' }}</span></pre>\n\n        </td>\n\n      </tr>\n    </table>\n\n\n    <p>Retrieve a list of available categories.</p>\n    <table class=\"table table-bordered table-dark\">\n\n      <tr>\n        <td> Get : https://localhost:44394/swagger </td>\n\n      </tr>\n    </table>\n  </div>\n</div>\n</div>\n\n\n  <div class=\"container\">\n\n\n<!-- Default form subscription -->\n<form class=\"text-center border border-light p-5\" action=\"#!\">\n\n    <p class=\"h4 mb-4\">Subscribe</p>\n\n    <p>Join our mailing list. We write rarely, but only the best content.</p>\n\n\n    <!-- Email -->\n    <input type=\"email\" id=\"defaultSubscriptionFormEmail\" class=\"form-control mb-4\" placeholder=\"E-mail\">\n    <input type=\"text\" id=\"Msg\" class=\"form-control mb-4\" placeholder=\"Your Comment\">\n    <!-- Sign in button -->\n    <button class=\"btn btn-info btn-block\" type=\"button\">Sign in</button>\n\n\n</form>\n<!-- Default form subscription -->\n\n\n\n</div>\n\n\n\n\n\n\n\n  \n  <!-- <script type=\"text/javascript\" >\n  \n    </script> -->\n</body>\n<!-- Footer -->\n<footer class=\"page-footer font-small blue\">\n\n    <!-- Copyright -->\n    <div class=\"footer-copyright text-center py-3\">© 2019 Copyright:\n      <a href=\"http://localhost:4200/\"> BroCode</a>\n    </div>\n    <!-- Copyright -->\n  \n  </footer>\n  <!-- Footer -->\n<script>\n  function toggleMe(target) {\n    var element = document.getElementById(target);\n    if (!element) {\n      return true;\n    }\n    if ('none' == element.style.display) {\n      element.style.display = 'block';\n    } else {\n      element.style.display = 'none';\n    }\n    return true;\n  }</script>\n<script src=\"../assets/js/Functionslocal.js\" type=\"text/javascript\"></script>\n\n</html>\n\n<!-- <script>\n    function toggleMe(obj) {\n      debugger;\n      var x = document.getElementById(\"detailed-description\");\n      if (x.style === \"display: none;\") {\n        x.innerHTML = \"Swapped text!\";\n        document.getElementById(\"detailed-description\").style = \"\";\n      } else {\n        document.getElementById(\"detailed-description\").style = \"display: none;\";\n      }\n    }\n    </script> -->"
+module.exports = "<!doctype html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n  <meta name=\"description\" content=\"\">\n  <meta name=\"author\" content=\"\">\n  <link rel=\"icon\" href=\"/docs/4.0/assets/img/favicons/favicon.ico\">\n\n  <title>Checkout example for Bootstrap</title>\n\n  <link rel=\"canonical\" href=\"https://getbootstrap.com/docs/4.0/examples/checkout/\">\n  <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"\n    integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n\n  <!-- Bootstrap core CSS -->\n  <!-- <link href=\"../../dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- Custom styles for this template -->\n  <!-- <link href=\"form-validation.css\" rel=\"stylesheet\"> --> -->\n  <script src=\"sweetalert2.all.min.js\"></script>\n  <!-- Optional: include a polyfill for ES6 Promises for IE11 -->\n  <script src=\"https://cdn.jsdelivr.net/npm/promise-polyfill\"></script>\n</head>\n\n\n<body class=\"bg-light\">\n  <div class=\"container\">\n      <div class=\"row\">\n          <div class=\"col-12 col-md-12\">\n    <br>\n    <div class=\"py-2 text-center\">\n      <img class=\"d-block mx-auto mb-4\" src=\"../assets/images/brocode.gif\" alt=\"\" width=\"360\" height=\"180\">\n      <p><b><a href=\"https://BroCode.com\">BroCode</a></b> is a free JSON API .\n      </p>\n\n      <div id=\"detailed-description\" style=\"\">\n        <p>A way of life between bros. No matter what is going on, the bro code must be followed.</p>\n        <p>It doesn't matter what is in there, the bro code MUST be followed.</p>\n      </div>\n    </div>\n    <h3 style=\"color: red;\">𝓤𝓼𝓪𝓰𝓮</h3>\n    <p>Retrieve a random chuck joke in JSON format.</p>\n    <table class=\"table  table-responsive table-dark\">\n\n      <tr>\n        <td> Get : https://localhost:44321/api/Bro/GetRandom </td>\n\n      </tr>\n      <tr>\n        <td>\n            <pre class=\"microlight\"><span style=\"color: white;\">{{ '{' }}</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">\"status\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white; font-weight: bold;\">200</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">\"message\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">\"Success\"</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">\"errors\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">null</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">\"data\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">{{ '{' }}</span><span style=\"color: white; font-weight: bold;\">\n                </span><span style=\"color: white;\">\"id\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white; font-weight: bold;\">91</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n                </span><span style=\"color: white;\">\"theCode\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">\"A Bro does not dare or challenge another bro to do anything they wouldn't try themselves.\"</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n                </span><span style=\"color: white;\">\"urd\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">\"2019-10-27T12:19:22.91\"</span><span style=\"color: white;\">,</span><span style=\"color: white; font-weight: bold;\">\n                </span><span style=\"color: white;\">\"isVisible\"</span><span style=\"color: white;\">:</span><span style=\"color: white; font-weight: bold;\"> </span><span style=\"color: white;\">true</span><span style=\"color: white; font-weight: bold;\">\n              </span><span style=\"color: white;\">{{ '}' }}</span><span style=\"color: white; font-weight: bold;\">\n            </span><span style=\"color: white;\">{{ '}' }}</span></pre>\n\n        </td>\n\n      </tr>\n    </table>\n\n\n    <p>Retrieve a list of available quotes.</p>\n    <table class=\"table table-bordered table-dark\">\n\n      <tr>\n        <td> Get : https://localhost:44321/api/Bro/GetALLs </td>\n\n      </tr>\n    </table>\n  </div>\n</div>\n</div>\n\n\n  <div class=\"container\">\n    \n<!-- <form #myform=\"ngForm\" (ngSubmit)=\"register(myform)\"   class=\"text-center border border-light p-5\" >\n\n    <p class=\"h4 mb-4\">Subscribe</p>\n\n    <p>Join our mailing list. We write rarely, but only the best content.</p>\n\n\n   \n    <div >\n    <input  type=\"email\" id=\"E-mail\" class=\"form-control mb-4\" name=\"E-mail\" placeholder=\"E-mail\"   ngModel [email]=\"true\">\n  </div>\n  <div >\n    <input   type=\"text\" id=\"Msg\" class=\"form-control mb-4\" name=\"Msg\" placeholder=\"Your Comment\" ngModel required>\n    \n    <button class=\"btn btn-info btn-block\" type=\"submit\">Register</button>\n  </div>\n\n</form> -->\n\n\n<form [formGroup]=\"registerForm\" (ngSubmit)=\"onSubmit()\" class=\"text-center border border-light p-5\">\n\n\n  <div class=\"form-group\">\n    <label>Email</label>\n    <input type=\"text\" formControlName=\"email\" class=\"form-control\" [ngClass]=\"{ 'is-invalid': submitted &amp;&amp; registerForm.controls.email.errors }\" />\n    <div *ngIf=\"submitted &amp;&amp; registerForm.controls.email.errors\" class=\"text-danger\">\n        <div *ngIf=\"registerForm.controls.email.errors.required\">Email is required</div>\n        <div *ngIf=\"registerForm.controls.email.errors.email\">Email must be a valid email address</div>\n    </div>\n</div>\n\n<div class=\"form-group\">\n  <label>Your Comment</label>\n  <input type=\"text\" formControlName=\"comments\" class=\"form-control\" />\n\n</div>\n\n<div class=\"form-group\">\n  <button class=\"btn btn-info btn-block\" >Register</button>\n</div>\n\n\n\n</form>\n\n\n\n\n\n\n\n\n<!-- Default form subscription -->\n\n\n\n</div>\n\n\n\n\n\n\n\n  \n  <!-- <script type=\"text/javascript\" >\n  \n    </script> -->\n</body>\n<!-- Footer -->\n<footer class=\"page-footer font-small blue\">\n\n    <!-- Copyright -->\n    <div class=\"footer-copyright text-center py-3\">© 2019 Copyright:\n      <a href=\"http://localhost:4200/\"> BroCode</a>\n    </div>\n    <!-- Copyright -->\n  \n  </footer>\n  <!-- Footer -->\n<script>\n  function toggleMe(target) {\n    var element = document.getElementById(target);\n    if (!element) {\n      return true;\n    }\n    if ('none' == element.style.display) {\n      element.style.display = 'block';\n    } else {\n      element.style.display = 'none';\n    }\n    return true;\n  }</script>\n<script src=\"../assets/js/Functionslocal.js\" type=\"text/javascript\"></script>\n\n</html>\n\n<!-- <script>\n    function toggleMe(obj) {\n      debugger;\n      var x = document.getElementById(\"detailed-description\");\n      if (x.style === \"display: none;\") {\n        x.innerHTML = \"Swapped text!\";\n        document.getElementById(\"detailed-description\").style = \"\";\n      } else {\n        document.getElementById(\"detailed-description\").style = \"display: none;\";\n      }\n    }\n    </script> -->"
 
 /***/ }),
 
@@ -77,12 +98,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ApidocumentationComponent", function() { return ApidocumentationComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_brocode_services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/brocode.services */ "./src/app/services/brocode.services.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
 
 
 var ApidocumentationComponent = /** @class */ (function () {
-    function ApidocumentationComponent() {
+    function ApidocumentationComponent(broCode, http, formBuilder) {
+        this.broCode = broCode;
+        this.http = http;
+        this.formBuilder = formBuilder;
+        this.dataSaved = false;
+        this.submitted = false;
     }
     ApidocumentationComponent.prototype.ngOnInit = function () {
+        this.registerForm = this.formBuilder.group({
+            // firstName: ['', Validators.required],
+            // lastName: ['', Validators.required],
+            email: ['', [_angular_forms__WEBPACK_IMPORTED_MODULE_4__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_4__["Validators"].email]],
+            comments: ''
+            // password: ['', [Validators.required, Validators.minLength(6)]]
+        });
         //   this.TheAPI = "{
         //   "status": 200,
         //     "message": "Success",
@@ -94,6 +136,59 @@ var ApidocumentationComponent = /** @class */ (function () {
         //           "isVisible": true
         //   }
         // } "
+        // var FormTOsendPost = new FormToSend();
+        // FormTOsendPost.comments="text";
+        // FormTOsendPost.email="ach@gmail.com";
+        // this.broCode.insertForm(FormTOsendPost)
+        // .subscribe
+        // (  
+        //   data=> {  
+        //           this.ComingFromPost=data;
+        //           console.log(this.ComingFromPost);
+        //   }  
+        // )
+    };
+    ApidocumentationComponent.prototype.onFormSubmit = function () {
+        this.dataSaved = false;
+        this.submitted = true;
+        var Form = this.InscriptionFOrm.value;
+        // this.SendForm(Form); 
+    };
+    ApidocumentationComponent.prototype.register = function (form) {
+        //console.log(form.value);
+    };
+    //   SendForm(Form:FormToSend)
+    //   {
+    // this.broCode.insertForm(Form).subscribe
+    // (  
+    //   () => {  
+    //     this.dataSaved = true;  
+    //     console.log ('Record saved Successfully')  
+    //     this.InscriptionFOrm.reset();  
+    //   }  
+    // );  
+    //   }
+    ApidocumentationComponent.prototype.onSubmit = function () {
+        this.submitted = true;
+        // stop the process here if form is invalid
+        if (this.registerForm.invalid) {
+            return;
+        }
+        this.FormToSendpost = this.registerForm.value;
+        console.log(this.FormToSendpost);
+        this.SendData(this.FormToSendpost);
+    };
+    ApidocumentationComponent.prototype.SendData = function (FormTOsendPost) {
+        var _this = this;
+        this.broCode.insertForm(FormTOsendPost)
+            .subscribe(function (data) {
+            // this.ComingFromPost=data;
+            // console.log(this.ComingFromPost);
+            _this.showSentMsg();
+        });
+    };
+    ApidocumentationComponent.prototype.showSentMsg = function () {
+        sweetalert2__WEBPACK_IMPORTED_MODULE_5___default.a.fire('Sent!', 'You have been subscribed to our mail !', 'success');
     };
     ApidocumentationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -101,7 +196,9 @@ var ApidocumentationComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./apidocumentation.component.html */ "./src/app/apidocumentation/apidocumentation.component.html"),
             styles: [__webpack_require__(/*! ./apidocumentation.component.css */ "./src/app/apidocumentation/apidocumentation.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_brocode_services__WEBPACK_IMPORTED_MODULE_2__["BroCodeServices"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormBuilder"]])
     ], ApidocumentationComponent);
     return ApidocumentationComponent;
 }());
@@ -227,6 +324,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bro_code_bro_code_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./bro-code/bro-code.component */ "./src/app/bro-code/bro-code.component.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _apidocumentation_apidocumentation_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./apidocumentation/apidocumentation.component */ "./src/app/apidocumentation/apidocumentation.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+
 
 
 
@@ -249,6 +348,8 @@ var AppModule = /** @class */ (function () {
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_8__["FormsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_8__["ReactiveFormsModule"]
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -367,12 +468,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var BroCodeServices = /** @class */ (function () {
     function BroCodeServices(http) {
         this.http = http;
     }
     BroCodeServices.prototype.getRandom = function () {
         return this.http.get(src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + "Bro/GetRandom");
+    };
+    // insertForm(FormToSend: FormToSend): Observable<FormToSend> {
+    //     return this.http.post<FormToSend>(environment.apiUrl+"ContactForm/PostContactForm", FormToSend)
+    //   }
+    BroCodeServices.prototype.insertForm = function (FormTOsendPost) {
+        var httpOptions = { headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/json' }) };
+        return this.http.post(src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + "ContactForm/PostContactForm", FormTOsendPost, httpOptions);
     };
     BroCodeServices = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Injectable"])({
